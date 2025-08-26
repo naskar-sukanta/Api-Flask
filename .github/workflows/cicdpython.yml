@@ -7,7 +7,7 @@ jobs:
  ci-cd:
   runs-on: ubuntu-latest
   env:
-   DOCKER_IMAGE: naskar-sukanta/flask-api-python-app
+   DOCKER_IMAGE: sukantanaskar/flask-api-python-app
    
   steps:
     - name: Checkout Code
